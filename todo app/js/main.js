@@ -63,18 +63,18 @@ function deleting(e) {
 function sTodo(e){
     let todoS = listTodo.childNodes
     // console.log(todoS);
-    todoS.forEach(function(Todo){
+    todoS.forEach(function(todo){
         switch (e.target.value){
             case "all":
                 // Todo.style.display = 'flex'
-                console.log('hello');
+                // console.log('hello');
                 break;
             case "done":
-                if (Todo.classList.contains(done)) {
-                    // Todo.style.display = 'flex'
-                    console.log('hello');
+                if (todo.classList.contains(done)) {
+                    // todo.style.display = 'flex'
+                    // console.log('hello');
                 }else{
-                    // Todo.style.display = 'none'
+                    // todo.style.display = 'none'
                 }
                 break;
         }
